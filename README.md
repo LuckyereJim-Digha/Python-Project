@@ -71,3 +71,4 @@ df = pd.read_excel('Car Inventory.xlsx')  # Ensure the Excel file is in the same
 
 # Display first few rows
 df.head()  </pre>
+
