@@ -72,7 +72,7 @@ df = pd.read_excel('Car Inventory.xlsx')  # Ensure the Excel file is in the same
 # Display first few rows
 df.head()  </pre>
 
-[8:51 pm, 21/07/2025] +234 705 370 8797: Clean Dataset
+## Clean Dataset
 
 <pre>
 # Check for missing values
@@ -88,6 +88,7 @@ df['Mileage'] = df['Mileage'].replace('[,]', '', regex=True).astype(int)
 
 # Verify data types
 print(df.dtypes) </pre>
+
 
 ### Results
 
@@ -131,5 +132,9 @@ While the analysis provided key insights into car pricing and brand performance,
 
 
 
+## Table of Content
 
+- [Project Overview](#project-overview)
+- [Results](#results)
+- [Recommendation](#recommendation)
 
